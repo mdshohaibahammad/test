@@ -1,11 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.StartSeason2" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
+        <!-- Customize theme colors -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorSecondary">@color/accent</item>
-        <item name="android:statusBarColor">@color/primary_dark</item>
-        <item name="android:navigationBarColor">@color/bg_main</item>
+        <item name="android:statusBarColor">@color/primary_navy</item>
+        <item name="android:navigationBarColor">@color/bg_canvas</item>
+        
+        <!-- High Contrast Typography for Input Fields -->
+        <item name="android:textColorPrimary">@color/text_headline</item>
+        <item name="android:textColorSecondary">@color/text_muted</item>
+        <item name="editTextColor">@color/text_headline</item>
+        <item name="colorOnSurface">@color/text_headline</item>
+        <item name="colorOnBackground">@color/text_headline</item>
     </style>
 
     <style name="Theme.StartSeason2" parent="Base.Theme.StartSeason2" />

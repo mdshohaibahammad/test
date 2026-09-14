@@ -22,17 +22,23 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:hint="কাস্টমারের নাম (Customer Name)"
+        android:textColorHint="@color/text_muted"
+        app:boxBackgroundColor="@color/white"
         app:boxCornerRadiusBottomEnd="10dp"
         app:boxCornerRadiusBottomStart="10dp"
         app:boxCornerRadiusTopEnd="10dp"
-        app:boxCornerRadiusTopStart="10dp">
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxStrokeColor="@color/primary"
+        app:hintTextColor="@color/primary">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etDialogCustomerName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:textSize="15sp" />
+            android:textColor="@color/text_headline"
+            android:textSize="15sp"
+            android:textStyle="bold" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Phone Number -->
@@ -42,17 +48,23 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:hint="মোবাইল নম্বর (Phone / WhatsApp)"
+        android:textColorHint="@color/text_muted"
+        app:boxBackgroundColor="@color/white"
         app:boxCornerRadiusBottomEnd="10dp"
         app:boxCornerRadiusBottomStart="10dp"
         app:boxCornerRadiusTopEnd="10dp"
-        app:boxCornerRadiusTopStart="10dp">
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxStrokeColor="@color/primary"
+        app:hintTextColor="@color/primary">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etDialogCustomerPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="phone"
-            android:textSize="15sp" />
+            android:textColor="@color/text_headline"
+            android:textSize="15sp"
+            android:textStyle="bold" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Due Amount -->
@@ -62,17 +74,23 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:hint="বাকির পরিমাণ (Due Amount)"
+        android:textColorHint="@color/text_muted"
+        app:boxBackgroundColor="@color/white"
         app:boxCornerRadiusBottomEnd="10dp"
         app:boxCornerRadiusBottomStart="10dp"
         app:boxCornerRadiusTopEnd="10dp"
         app:boxCornerRadiusTopStart="10dp"
-        app:prefixText="৳ ">
+        app:boxStrokeColor="@color/primary"
+        app:hintTextColor="@color/primary"
+        app:prefixText="৳ "
+        app:prefixTextColor="@color/primary">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etDialogDueAmount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
+            android:textColor="@color/text_headline"
             android:textSize="15sp"
             android:textStyle="bold" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -84,10 +102,14 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:hint="বিবরণ / নোট (Notes)"
+        android:textColorHint="@color/text_muted"
+        app:boxBackgroundColor="@color/white"
         app:boxCornerRadiusBottomEnd="10dp"
         app:boxCornerRadiusBottomStart="10dp"
         app:boxCornerRadiusTopEnd="10dp"
-        app:boxCornerRadiusTopStart="10dp">
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxStrokeColor="@color/primary"
+        app:hintTextColor="@color/primary">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etDialogDueNotes"
@@ -95,6 +117,7 @@
             android:layout_height="wrap_content"
             android:inputType="textMultiLine"
             android:lines="2"
+            android:textColor="@color/text_headline"
             android:textSize="14sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
