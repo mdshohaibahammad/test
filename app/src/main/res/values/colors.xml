@@ -3,26 +3,42 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     
-    <!-- Primary Theme Colors -->
-    <color name="primary">#4F46E5</color>
-    <color name="primary_dark">#3730A3</color>
-    <color name="primary_light">#EEF2FF</color>
-    <color name="accent">#06B6D4</color>
+    <!-- Enterprise Brand Colors -->
+    <color name="primary">#2563EB</color>
+    <color name="primary_dark">#1E40AF</color>
+    <color name="primary_navy">#0F172A</color>
+    <color name="primary_surface">#1E293B</color>
+    <color name="accent_blue">#38BDF8</color>
+    <color name="accent_purple">#818CF8</color>
     
-    <!-- Background & Surface -->
-    <color name="bg_main">#F1F5F9</color>
-    <color name="surface_card">#FFFFFF</color>
-    <color name="result_card_bg">#F8FAFC</color>
-    <color name="stroke_color">#E2E8F0</color>
+    <!-- Background & Canvas -->
+    <color name="bg_canvas">#F8FAFC</color>
+    <color name="card_surface">#FFFFFF</color>
+    <color name="card_surface_subtle">#F1F5F9</color>
+    <color name="border_subtle">#E2E8F0</color>
+    <color name="border_medium">#CBD5E1</color>
     
-    <!-- Text Colors -->
-    <color name="text_primary">#0F172A</color>
-    <color name="text_secondary">#64748B</color>
-    <color name="text_muted">#94A3B8</color>
+    <!-- Typography Colors -->
+    <color name="text_headline">#0F172A</color>
+    <color name="text_body">#334155</color>
+    <color name="text_muted">#64748B</color>
+    <color name="text_caption">#94A3B8</color>
     
-    <!-- Status Colors -->
-    <color name="profit_green">#10B981</color>
-    <color name="profit_green_light">#ECFDF5</color>
-    <color name="loss_red">#EF4444</color>
-    <color name="loss_red_light">#FEF2F2</color>
+    <!-- Status & Metric Indicators -->
+    <color name="status_profit">#059669</color>
+    <color name="status_profit_bg">#ECFDF5</color>
+    <color name="status_profit_border">#A7F3D0</color>
+    
+    <color name="status_loss">#DC2626</color>
+    <color name="status_loss_bg">#FEF2F2</color>
+    <color name="status_loss_border">#FECACA</color>
+    
+    <color name="status_neutral">#475569</color>
+    <color name="status_neutral_bg">#F1F5F9</color>
+    
+    <color name="chip_bg">#F1F5F9</color>
+    <color name="chip_text">#334155</color>
+    <color name="chip_selected_bg">#EEF2FF</color>
+    <color name="chip_selected_text">#4F46E5</color>
+    <color name="chip_selected_border">#C7D2FE</color>
 </resources>
