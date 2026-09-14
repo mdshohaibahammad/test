@@ -8,10 +8,12 @@
     <color name="primary_dark">#1E40AF</color>
     <color name="primary_navy">#0F172A</color>
     <color name="primary_surface">#1E293B</color>
+    <color name="accent">#38BDF8</color>
     <color name="accent_blue">#38BDF8</color>
     <color name="accent_purple">#818CF8</color>
     
     <!-- Background & Canvas -->
+    <color name="bg_main">#F8FAFC</color>
     <color name="bg_canvas">#F8FAFC</color>
     <color name="card_surface">#FFFFFF</color>
     <color name="card_surface_subtle">#F1F5F9</color>
@@ -25,10 +27,12 @@
     <color name="text_caption">#94A3B8</color>
     
     <!-- Status & Metric Indicators -->
+    <color name="profit_green">#059669</color>
     <color name="status_profit">#059669</color>
     <color name="status_profit_bg">#ECFDF5</color>
     <color name="status_profit_border">#A7F3D0</color>
     
+    <color name="loss_red">#DC2626</color>
     <color name="status_loss">#DC2626</color>
     <color name="status_loss_bg">#FEF2F2</color>
     <color name="status_loss_border">#FECACA</color>
