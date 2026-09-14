@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 result2 = resule/buy*100;
 
                 s3 =  "yore profit margin is " + result2 + "%";
-                textdisplay.setText(s3 + "%");
+                textdisplay.setText(s3 + "%"+ "s");
             }
         });
 
