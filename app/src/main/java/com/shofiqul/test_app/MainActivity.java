@@ -598,7 +598,9 @@ public class MainActivity extends AppCompatActivity {
     private void loadHistoryData(String keyword) {
         historyList.clear();
         historyList.addAll(dbHelper.getAllTransactions(keyword));
-        transactionAdapter.notifyDataSetChanged();
+        if (transactionAdapter != null) {
+            transactionAdapter.setCurrencySymbol(currentCurrency);
+        }
 
         float totalProfit = dbHelper.getTotalNetProfit();
         tvTotalHistoryProfit.setText(String.format(Locale.getDefault(), "%s %.2f", currentCurrency, totalProfit));
@@ -653,7 +655,9 @@ public class MainActivity extends AppCompatActivity {
     private void loadKhataData(String keyword) {
         dueList.clear();
         dueList.addAll(dbHelper.getAllDues(keyword));
-        dueAdapter.notifyDataSetChanged();
+        if (dueAdapter != null) {
+            dueAdapter.setCurrencySymbol(currentCurrency);
+        }
 
         float totalDue = dbHelper.getTotalDueAmount();
         tvTotalDueAmount.setText(String.format(Locale.getDefault(), "%s %.2f", currentCurrency, totalDue));

@@ -26,7 +26,7 @@ public class DueAdapter extends RecyclerView.Adapter<DueAdapter.DueViewHolder> {
 
     private final Context context;
     private final List<DueItem> list;
-    private final String currencySymbol;
+    private String currencySymbol;
     private final OnDueActionListener listener;
 
     public DueAdapter(Context context, List<DueItem> list, String currencySymbol, OnDueActionListener listener) {
@@ -34,6 +34,11 @@ public class DueAdapter extends RecyclerView.Adapter<DueAdapter.DueViewHolder> {
         this.list = list;
         this.currencySymbol = currencySymbol;
         this.listener = listener;
+    }
+
+    public void setCurrencySymbol(String currencySymbol) {
+        this.currencySymbol = currencySymbol;
+        notifyDataSetChanged();
     }
 
     @NonNull

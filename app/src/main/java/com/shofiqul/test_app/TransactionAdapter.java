@@ -23,7 +23,7 @@ public class TransactionAdapter extends RecyclerView.Adapter<TransactionAdapter.
 
     private final Context context;
     private final List<TransactionItem> list;
-    private final String currencySymbol;
+    private String currencySymbol;
     private final OnItemActionListener listener;
 
     public TransactionAdapter(Context context, List<TransactionItem> list, String currencySymbol, OnItemActionListener listener) {
@@ -31,6 +31,11 @@ public class TransactionAdapter extends RecyclerView.Adapter<TransactionAdapter.
         this.list = list;
         this.currencySymbol = currencySymbol;
         this.listener = listener;
+    }
+
+    public void setCurrencySymbol(String currencySymbol) {
+        this.currencySymbol = currencySymbol;
+        notifyDataSetChanged();
     }
 
     @NonNull
